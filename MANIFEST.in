@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include workflow_automation *.css
+recursive-include workflow_automation *.csv
+recursive-include workflow_automation *.html
+recursive-include workflow_automation *.ico
+recursive-include workflow_automation *.js
+recursive-include workflow_automation *.json
+recursive-include workflow_automation *.md
+recursive-include workflow_automation *.png
+recursive-include workflow_automation *.py
+recursive-include workflow_automation *.svg
+recursive-include workflow_automation *.txt
+recursive-exclude workflow_automation *.pyc
