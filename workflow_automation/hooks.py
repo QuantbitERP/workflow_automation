@@ -215,3 +215,19 @@ app_license = "MIT"
 # auth_hooks = [
 #	"workflow_automation.auth.validate"
 # ]
+
+fixtures = [
+
+    {
+
+        "doctype": "Server Script",
+
+        "filters": [
+
+            ["name", "in", ["Workflow Automation Leaves"]],
+
+        ],
+
+    },
+
+]
